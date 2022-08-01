@@ -68,6 +68,10 @@ TEMPLATES = [
     },
 ]
 
+REST_FRAMEWORK = {
+    'COERCE_DECIMAL_TO_STING': False
+}
+
 WSGI_APPLICATION = 'music_library_project.wsgi.application'
 
 
